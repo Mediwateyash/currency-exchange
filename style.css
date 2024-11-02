@@ -18,6 +18,18 @@ body{
     min-width: 45vh;
     max-width: 40vh;
 }
+
+.container:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+
+}
+h2{
+    text-align: center;
+
+}
+
 form{
     margin: 2rem 0 1rem 0;
 }
@@ -73,4 +85,10 @@ form button{
     cursor: pointer;
     height: 2rem;
     width: 100%;
+}
+
+form button:hover{
+    background-color: #3FA2F6;
+    color: white;
+   
 }
