@@ -7,11 +7,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: aqua;
+    background-color: #FAFFAF;
 }
 
 .container{
-    background-color: yellow;
+    background-color: #96C9F4;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -62,12 +62,12 @@ form input{
     border: 1px solid grey;
 }
 .msg{
-    color: red;
+    color: rgb(89, 17, 120);
     margin: 2rem 0 1rem 0;
 }
 
 form button{
-    background-color: #4CAF50;
+    background-color: #0F67B1;
     color: white;
     font-size: 1rem;
     cursor: pointer;
