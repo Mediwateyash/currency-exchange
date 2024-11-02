@@ -44,6 +44,10 @@ form input{
     align-items: center;
     margin-top: 1rem;
 }
+.dropdown i{
+    font-size: 1.5rem;
+    width: auto;
+}
 .selectcontainer img {
    max-width: 2rem;
 }
@@ -56,4 +60,17 @@ form input{
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid grey;
+}
+.msg{
+    color: red;
+    margin: 2rem 0 1rem 0;
+}
+
+form button{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 100%;
 }
