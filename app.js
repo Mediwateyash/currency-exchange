@@ -82,3 +82,4 @@ const updateExchangeRate = async () => {
         msg.innerText = "Failed to fetch exchange rate.";
     }
 };
+ 
