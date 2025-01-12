@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy Money</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h2> Easy Money currency converter</h2>
+        <h2>Easy Money Currency Converter</h2>
         <form>
             <div class="amount">
                 <p>Enter amount</p>
@@ -17,35 +17,33 @@
             </div>
             <div class="dropdown">
                 <div class="from">
-                <p>From</p>
-                <div class="selectcontainer">
-                    <img src="https://flagsapi.com/US/flat/64.png">   
-                <select name="from" >
-                </select>
+                    <p>From</p>
+                    <div class="selectcontainer">
+                        <img src="https://flagsapi.com/US/flat/64.png">   
+                        <select name="from"></select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="selectcontainer">
+                        <img src="https://flagsapi.com/IN/flat/64.png">   
+                        <select name="to"></select>
+                    </div>
                 </div>
             </div>
-          <i class="fa-solid fa-arrow-right-arrow-left"></i>
-            <div class="to">
-            <p>To</p>
-            <div class="selectcontainer">
-                <img src="https://flagsapi.com/IN/flat/64.png">   
-            <select name="from" >
 
-            </select>
-            </div>
-        </div>
-      
-
-          </div>
-          <div class="msg">1 USD = 80.00 INR</div>
-          <button>Get Excahange Rate</button>
-        </div>
-    </form>
+            <div class="msg">1 USD = 80.00 INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
     <footer>
-        <p>Designed and Created by <a href="https://github.com/mediwateyash">Diwate yash </a></p>
-        <p> &copy; Notes cloud by dy</p>
+        <p>Designed and Created by <a href="https://github.com/mediwateyash">Diwate Yash</a></p>
+        <p> &copy; Notes Cloud by DY</p>
     </footer>
-    <script src="/currency-exchange/codes.js"></script>
-    <script src="/currency-exchange/app.js"></script>
+
+    <!-- Load codes.js first, then app.js -->
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
